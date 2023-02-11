@@ -945,8 +945,8 @@ def select_move(x, y, a, b, c):
         Textselect[0] = selectionfont.render('Laufen ', True, Colors[PlayerTurn], Colors[6 + a])
         Textselect[1] = selectionfont.render('Angriff ', True, Colors[PlayerTurn], Colors[6 + b])
         Textselect[2] = selectionfont.render('Spezial', True, Colors[PlayerTurn], Colors[6 + c])
-        Textselect[4] = selectionfont.render(' Ritter', True, Colors[PlayerTurn], Colors[6 + a])
-        Textselect[5] = selectionfont.render('Schütze', True, Colors[PlayerTurn], Colors[6 + b])
+        Textselect[3] = selectionfont.render('Schütze', True, Colors[PlayerTurn], Colors[6 + a])
+        Textselect[4] = selectionfont.render(' Ritter', True, Colors[PlayerTurn], Colors[6 + b])
     for i in range(5):
         Selectrect[i] = Textselect[0].get_rect()
     if SelectionMode == 1:
